@@ -18,6 +18,7 @@ public class Main {
         for (User user : list) {
             System.out.println(user.getUsername() + ", " + user.getPassword() + ", " + user.getPassword());
         }
+        System.out.println("1111");
         
         // 销毁该容器
         context.destroy();
